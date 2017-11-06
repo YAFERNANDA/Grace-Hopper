@@ -10,11 +10,33 @@ header hr {
     margin-top: 0;
     margin-bottom: 0;
 }
+header p{
+  font-size: 12px;
+}
 .biography {
     width: 78%;
     display: inline-block;
     font-size: 14px;
+    /* no ayuda que nuestras letras se sepanren*/
     line-height: 1.6;
+}
+
+.contents{
+  border: 1px solid #a2a9b1;
+  width: 17%;
+  background-color: #f8f9fa;
+}
+.contents h3{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.contents ol{
+  padding-left: 25px;
+  margin-top: 0;
+}
+.contents ol ul{
+  padding-left: 25px;
 }
 .summary {
     display: inline-block;
@@ -26,7 +48,7 @@ header hr {
     border:  1px solid #a2a9b1;
     background-color: #f8f9fa;
     padding: 1px;
-    font-size: 14px;
+    font-size: 12px;
 }
 .summary-table thead th {
     background-color: #B0C4DE;
@@ -37,6 +59,13 @@ header hr {
 .summary-table tbody tr:first-child {
     text-align: center;
 }
+.summary-table tbody tr td img{
+  padding-left: 25px;
+  padding-right: 25px;
+}
 .summary-table tbody th{
     text-align: left;
-    
+}
+.summary-table tbody td p{
+  margin:0;
+}
